@@ -15,7 +15,9 @@ public class Format {
 
 		try {
 
-			Scanner sc = new Scanner(new FileReader(args[0]));
+			Scanner sc = new Scanner(new FileReader("formatage.txt"));
+
+			//Scanner sc = new Scanner(new FileReader(args[0]));
 			if(sc.hasNextLine())
 				nbColonnes = sc.nextInt();
 
@@ -29,7 +31,10 @@ public class Format {
 			System.out.println(nbLignes + " " + nbColonnes);
 
 
-			System.out.println("Lecture du fichier " + args[0] + "\n");
+			//System.out.println("Lecture du fichier " + args[0] + "\n");
+			
+			System.out.println("Lecture du fichier formatage.txt\n");
+			
 			for(int i = 0; i < nbLignes; i++)
 			{
 				if(sc.hasNext())
