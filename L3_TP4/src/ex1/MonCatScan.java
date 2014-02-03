@@ -14,11 +14,12 @@ public class MonCatScan {
 			{
 				System.out.println(sc.nextLine());
 			}
+			sc.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.err.println("Erreur, le fichier n'existe pas ou n'est pas lisible");
 		}
-		
+
 	}
 
 

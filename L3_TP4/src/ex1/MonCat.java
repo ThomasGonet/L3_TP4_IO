@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+
 public class MonCat {
 
 	public static void main(String[] args)  {
@@ -21,7 +22,7 @@ public class MonCat {
 			// TODO Auto-generated catch block
 			System.err.println("Erreur, le fichier n'existe pas ou n'est pas lisible");
 		}
-		
+
 	}
 
 }
