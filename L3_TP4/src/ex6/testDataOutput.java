@@ -18,7 +18,7 @@ public class testDataOutput {
 		Personne p1 = new Personne("T", "P", date, new Adresse(3, "ldt", "20600", "bastia"));
 		File f = new File("output.txt");
 		p1.saveBinaire(f);
-		
+		System.out.println(p1);
 		
 		try {
 			ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("pers.ser"));

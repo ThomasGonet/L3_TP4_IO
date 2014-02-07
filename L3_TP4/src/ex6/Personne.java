@@ -211,7 +211,7 @@ public class Personne implements Cloneable, Comparable<Personne>, Serializable{
 			String cp = dis.readUTF();
 			String ville = dis.readUTF();
 			
-			p = new Personne(prenom, nom, da, new Adresse(num, rue, cp, ville));
+			p = new Personne(nom, prenom, da, new Adresse(num, rue, cp, ville));
 			
 			fis.close();
 			dis.close();
